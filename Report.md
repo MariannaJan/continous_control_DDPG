@@ -37,8 +37,14 @@ OU_SIGMA  = 0.15
 OU_THETA  = 0.05
 # 
 EPSILON       = 1.0     # for epsilon in the noise process (act step)
-EPSILON_DECAY = 1e-6```
+EPSILON_DECAY = 1e-6
+```
 
 ## Plot of Rewards
 
+![plot](/plot.png)
+
 ## Ideas for Future Work
+
+1. Further hyperparameter tuning and longer training, with a goal set to a higher value (like 35), to make the agent get better results or make the model converge faster.
+2. Try implementing a different algorithm. As suggested in a benchmark found in research paper [Benchmarking Deep Reinforcement Learning for Continuous Control](https://arxiv.org/abs/1604.06778) Truncated Natural Policy Gradient and Trust Region Policy Optimization seem to be highly efficient in solving tasks with continous action space.
