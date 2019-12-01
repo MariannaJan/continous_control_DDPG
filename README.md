@@ -28,7 +28,7 @@ You don't need to install Unity separately, as Unity Agents are already configur
 
 Make sure you have CUDA Drivers installed.
 
-Finally place the files from this repo into the p2_continuous-control folder of the deep-reinforcement-learning repository and run the Jupyter Notebook Navigation.ipynb. Make sure the name of the environment you downloaded matches the one specified in the code 
+Finally place the files from this repo into the p2_continuous-control folder of the deep-reinforcement-learning repository and run the Jupyter Notebook Continuous_Control.ipynb. Make sure the name of the environment you downloaded matches the one specified in the code 
 `env = UnityEnvironment(file_name='/data/Reacher_One_Linux_NoVis/Reacher_One_Linux_NoVis.x86_64')`
 
 ## Instructions
