@@ -33,4 +33,4 @@ Finally place the files from this repo into the p2_continuous-control folder of 
 
 ## Instructions
 
-To train the agent from scratch just run the ddpg function.
+To run the code, simply open the Continuous_Control.ipynb notebook. To train the agent from scratch just run the ddpg function.
